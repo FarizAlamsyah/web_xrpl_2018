@@ -1,0 +1,39 @@
+/*Selector Id [id="listnama"]*/
+#listnama{
+
+/* Membuat garis batas object */
+	/* border : width type warna */
+	border: 1px solid #2d89ef; 
+	/*mengatur jarak dari object keluar */
+	margin: 10px;
+	/*mengatur jarak dari object kedalam*/
+	padding: 20px;
+	/*membuat rounded border */
+	border-radius: 20px;
+	/* membuat shadow object */
+	box-shadow: 2px 2px 10px #2d89ef;  
+}
+
+
+input[type="text"],input[type="date"],select{
+	margin: 3px;
+	display: block;
+	width: 100%;
+	padding: 4px;
+	font-size: 12pt;
+	line-height: 1.6;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid rgba(0, 40, 100, 0.12);
+	border-radius: 3px;
+	transition: border-color 0.15s ease-in-out,
+				box-shadow 0.15s ease-in-out;
+}
+
+input[type="text"]:focus{
+	color: #495057;
+	background-color: #fff
+	border-color: #1991eb;
+	outline: 0;
+	box-shadow: 0 0 0 3px rgba(70, 127, 207, 0.25);
+}
